@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio | Arifur Rahman</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  
+  <!-- --------  FAVICON LINK  -------  -->
+   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+  <!-- --------  FONT AWESOME CDN CSS LINK  -------  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+  <!-- --------  SWIPPER JS CDN CSS LINK  -------  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+  
+  <!-------	HEADER SECTION START	------->
+  <section class="home" id="home">
+
+    <header class="header">
+      <a href="#" class="logo hidden_left"><img src="images/home-logo.svg" alt="Logo" width="100px" height="55px" /</a>
+      <nav class="navbar">
+        <ul class="navbar_navlist">
+          <li><a href="#Home" class="navLink">Home</a></li>
+          <li><a href="#About" class="navLink">About</a></li>
+          <li><a href="#Service" class="navLink">Services</a></li>
+          <li><a href="#Testimonial" class="navLink">Portfolio</a></li>
+          <li><a href="#Contact" class="navLink">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav_btns hidden_right ">
+        <a href=" https://wa.me/01685366704" target="_blank" class="nav_btn"><i class="fa-solid fa-phone"></i> &nbsp; Request a call </a>
+      </div>
+      <div class="mobile-navbar-btn">
+        <i class="fa-solid fa-bars mobile_nav_icon" name="bars"></i>
+        <i class="fa-solid fa-xmark mobile_nav_icon" name="close"></i>
+      </div>
+    </header>
+
+    <!---****	MAIN SECTION START	****--->
+
+    <!-------	SOCIAL LEFT SIDE ICONS START	------->
+    <div class="social">
+      <a href="#" class="social_icon"></a>
+      <a href="#" class="social_icon"></a>
+      <a href="#" class="social_icon"></a>
+    </div>
+
+    <!-------	HOME SECTION START	------->
+
+    <div class="container">
+      <div class="home_content hidden_left">
+        <h1 class="primary_heading">
+          Hi,<br>
+          I'm Arifur Rahman,<br>
+          Web Developer
+        </h1>
+        <p class="para">
+          I work as a front-end developer and WordPress specialist located in Bangladesh. I am extremely passionate about web design and development, animation, and producing dynamic, intuitive user interfaces.
+        </p>
+        <a href="#"><button role="button" class="btn home__btn btnColor">
+            Contact me! &nbsp; <i class="fa-solid fa-arrow-right-long"></i>
+          </button></a>
+      </div>
+      <div class="home_img hidden_right">
+        <img src="images/animated border image.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-------	ABOUT SECTION START	------->
+
+  <section class="about_section" id="About">
+    <div class="container">
+      <div class="about_content_box">
+        <div class="about_image hidden_top">
+          <img src="images/about page img.jpg" class="about_img" alt="About image">
+        </div>
+        <div class="about_description">
+          <div class="about_titleBox">
+            <span class="subtitle">About me</span>
+            <h2 class="section_title">Hi, I’m Arifur!</h2>
+          </div>
+          <p class="about_text">I work as a front-end developer and WordPress specialist located in Bangladesh. I am extremely passionate about web design and development, animation, and producing dynamic, intuitive user interfaces.
+          </p>
+          <p class="about_text">A person who can handle problems, work independently, is skilled, and works as a full-time freelancer with strong attention to detail.</p>
+          <p class="about_text">Interested in the entire frontend spectrum and working on ambitious projects with positive people.</p>
+          <div class="about_btns">
+            <a href="#"><button role="button" class="btn home__btn btnColor">Hire me &nbsp; <i
+                  class="fa-solid fa-arrow-right-long"></i></button></a>
+            <a href="#" class="cv_link">DOWNLOAD CV</a>
+          </div>
+          <div class="about_info">
+            <div class="about_item">
+              <div class="about_item_number">90</div>
+              <p>Happy Clients</p>
+            </div>
+            <div class="about_item">
+              <div class="about_item_number">10</div>
+              <p>Years of Experience</p>
+            </div>
+            <div class="about_item">
+              <div class="about_item_number">75</div>
+              <p>Projects Completed</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------	WORK & SKILLS SECTION START	------->
+  <section class="filters container hidden_left" id="skills_container">
+
+  <div class="bg_skill">
+    <img src="images/Vector 2.png" alt="">
+  </div> 
+    <!--=============== FILTERS TABS ===============-->
+    <ul class="filters__content">
+      <button class="filters__button filter-tab-active" data-target="#projects">
+        Projects
+      </button>
+      <button class="filters__button" data-target="#skills">
+        Skills
+      </button>
+    </ul>
+
+    <div class="filters__sections">
+      <!--=============== PROJECTS ===============-->
+      <div class="projects__content grid filters__active" data-content id="projects">
+        <article class="projects__card">
+          <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+          <img src="images/project/front-page-project-1.png" alt=""  class="projects__img">
+
+          <div class="projects__modal">
+            <div>
+              <span class="projects__subtitle">LMS Website</span>
+              <h3 class="projects__title">Academy learning management website</h3>
+              <a href="#web-development-project" data-modal-target="#modal" class="projects__button button button__small">
+                <i class="fa-solid fa-link link-btn"></i>
+              </a>
+            </div>
+          </div>
+
+          
+<!-- PEOJECT MODAL POPUP CODE START  -->
+
+<div class="modal" id="modal">
+  <div class="modal-header">
+    <div class="title">Learning Management system website</div>
+    <button data-close-button class="close-button"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <div class="modal-body">
+      <div class="project__img">
+          <img src="images/project/project-1.png" width="600px" alt="">
+      </div>
+      <div class="project_content">
+          <div class="project__title">
+
+              <h4>Project title</h4>
+              <div class="title">Learning management system (LMS)website</div>
+          </div>
+          <div class="project-desc">
+              <h4>Project Description</h4>
+              I have created the entire website using the CMS WordPress. Also using the custom Wordpress theme and plugins. The website development was done in 20 days.
+              </p>
+          </div>
+          <div class="project__link">
+              <h4>Project link</h4>
+              <a href="https://academy.ararifurrahman.com" target=”_blank”>academy.ararifurrahman.com</a>
+          </div>
+      </div>
+  
+  </div>
+  
+</div>
+<div id="overlay"></div>
+
+
+<!-- PROJECT MODAL POPUP CODE END  -->
+
+        </article>
+
+        <article class="projects__card">
+          <img src="images/project/front-project-2.png" alt="" class="projects__img">
+
+          <div class="projects__modal">
+            <div>
+              <span class="projects__subtitle">annabelardo</span>
+              <h3 class="projects__title">Wedding planner website</h3>
+              <a href="#web-development-project" data-modal-target="#secondModal" class="projects__button button button__small">
+                <i class="fa-solid fa-link link-btn"></i>
+              </a>
+            </div>
+          </div>
+
+<!-- PEOJECT MODAL POPUP CODE START  -->
+
+<div class="modal" id="secondModal">
+  <div class="modal-header">
+    <div class="title">Website Design like Instagram Homepage</div>
+    <button data-close-button class="close-button"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <div class="modal-body">
+      <div class="project__img">
+          <img src="images/project/project-2.jpg" width="600px"  alt="">
+      </div>
+      <div class="project_content">
+          <div class="project__title">
+
+              <h4>Project title</h4>
+              <div class="title">Website Design like Instagram Homepage</div>
+          </div>
+          <div class="project-desc">
+              <h4>Project Description</h4>
+              Has created a website similar to the Instagram Page by using raw coding, including jquery and Javascript.
+              </p>
+          </div>
+          <div class="project__link">
+              <h4>Project link</h4>
+              <a href="https://annabelardo.it" target=”_blank”>annabelardo.it</a>
+          </div>
+      </div>
+  
+  </div>
+  
+</div>
+<div id="overlay"></div>
+
+
+<!-- PROJECT MODAL POPUP CODE END  -->
+     
+
+        </article>
+
+        <article class="projects__card">
+          <img src="images/project/front-project-3.jpg" alt="" class="projects__img">
+
+          <div class="projects__modal">
+            <div>
+              <span class="projects__subtitle">David Cameme</span>
+              <h3 class="projects__title">Transport & Logistics website</h3>
+              <a href="#web-development-project" data-modal-target="#thirdModal" class="projects__button button button__small">
+                <i class="fa-solid fa-link link-btn"></i>
+              </a>
+            </div>
+          </div>
+
+<!-- PEOJECT MODAL POPUP CODE START  -->
+
+<div class="modal" id="thirdModal">
+  <div class="modal-header">
+    <div class="title">Transport & Logistics Website</div>
+    <button data-close-button class="close-button"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <div class="modal-body">
+      <div class="project__img">
+          <img src="images/project/project-3.jpg" width="600px"  alt="">
+      </div>
+      <div class="project_content">
+          <div class="project__title">
+
+              <h4>Project title</h4>
+              <div class="title">Transport & Logistics Website</div>
+          </div>
+          <div class="project-desc">
+              <h4>Project Description</h4>
+              I have created the entire website using the html, css and javascript. Also using jquery plugins. The website development was done in 1 week.
+              </p>
+          </div>
+      </div>
+  
+  </div>
+  
+</div>
+<div id="overlay"></div>
+
+
+<!-- PROJECT MODAL POPUP CODE END  -->
+
+        </article>
+
+        <article class="projects__card">
+          <img src="images/project/front-project-4.jpg" alt="" class="projects__img">
+
+          <div class="projects__modal">
+            <div>
+              <span class="projects__subtitle">Talkspace</span>
+              <h3 class="projects__title">Online therapy website</h3>
+              <a href="#web-development-project" data-modal-target="#fourthModal" class="projects__button button button__small">
+                <i class="fa-solid fa-link link-btn"></i>
+              </a>
+            </div>
+          </div>
+
+<!-- PEOJECT MODAL POPUP CODE START  -->
+
+<div class="modal" id="fourthModal">
+  <div class="modal-header">
+    <div class="title">Online therapy website</div>
+    <button data-close-button class="close-button"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <div class="modal-body">
+      <div class="project__img">
+          <img src="images/project/project-4.jpg" width="600px"  alt="">
+      </div>
+      <div class="project_content">
+          <div class="project__title">
+
+              <h4>Project title</h4>
+              <div class="title">Online therapy website</div>
+          </div>
+          <div class="project-desc">
+              <h4>Project Description</h4>
+              I have Created this Entire Website.
+              </p>
+          </div>
+          <div class="project__link">
+              <h4>Project link</h4>
+              <a href="https://try.talkspace.com/" target=”_blank”>try.talkspace.com</a>
+          </div>
+      </div>
+  
+  </div>
+  
+</div>
+<div id="overlay"></div>
+
+
+<!-- PROJECT MODAL POPUP CODE END  -->
+          
+        </article>
+
+        <article class="projects__card">
+          <img src="images/project/front-project-5.jpg" alt="" class="projects__img">
+
+          <div class="projects__modal">
+            <div>
+              <span class="projects__subtitle">Driven Floored</span>
+              <h3 class="projects__title">Car Youtube Channel Website</h3>
+              <a href="#web-development-project" data-modal-target="#fifthModal" class="projects__button button button__small">
+                <i class="fa-solid fa-link link-btn"></i>
+              </a>
+            </div>
+          </div>
+
+ 
+<!-- PEOJECT MODAL POPUP CODE START  -->
+
+<div class="modal" id="fifthModal">
+  <div class="modal-header">
+    <div class="title">Car review youtube channel website</div>
+    <button data-close-button class="close-button"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <div class="modal-body">
+      <div class="project__img">
+          <img src="images/project/project-5.jpg" width="600px"  alt="">
+      </div>
+      <div class="project_content">
+          <div class="project__title">
+
+              <h4>Project title</h4>
+              <div class="title">Car review youtube channel website</div>
+          </div>
+          <div class="project-desc">
+              <h4>Project Description</h4>
+              I have created the entire website using the CMS WordPress. Also using the custom Wordpress theme and plugins.
+              </p>
+          </div>
+          <div class="project__link">
+              <h4>Project link</h4>
+              <a href="https://sunnyrvparks.com/" target=”_blank”>sunnyrvparks.com</a>
+          </div>
+      </div>
+  
+  </div>
+  
+</div>
+<div id="overlay"></div>
+
+
+<!-- PROJECT MODAL POPUP CODE END  -->
+
+    
+        </article>
+
+        <article class="projects__card">
+        
+          <img src="images/project/project-6.jpg" alt=""  class="projects__img">
+
+          <div class="projects__modal">
+            <div>
+              <span class="projects__subtitle">Park website</span>
+              <h3 class="projects__title">Sunny rv park website</h3>
+              <a href="#web-development-project" data-modal-target="#modal" class="projects__button button button__small">
+                <i class="fa-solid fa-link link-btn"></i>
+              </a>
+            </div>
+          </div>
+
+          
+<!-- PEOJECT MODAL POPUP CODE START  -->
+
+<div class="modal" id="modal">
+  <div class="modal-header">
+    <div class="title">Suny Rv Park Company Website, Texas, USA</div>
+    <button data-close-button class="close-button"><i class="fa-solid fa-xmark"></i></button>
+  </div>
+  <div class="modal-body">
+      <div class="project__img">
+          <img src="images/project/project-6.jpg" width="600px" alt="">
+      </div>
+      <div class="project_content">
+          <div class="project__title">
+
+              <h4>Project title</h4>
+              <div class="title">Suny Rv Park Company Website, Texas, USA</div>
+          </div>
+          <div class="project-desc">
+              <h4>Project Description</h4>
+              I have created the entire website using the CMS WordPress. Also using the custom Wordpress theme and plugins. The website development was done in 5 days.
+              </p>
+          </div>
+          <div class="project__link">
+              <h4>Project link</h4>
+              <a href="https://sunnyrvparks.com/" target=”_blank”>sunnyrvparks.com</a>
+          </div>
+      </div>
+  
+  </div>
+  
+</div>
+<div id="overlay"></div>
+
+
+<!-- PROJECT MODAL POPUP CODE END  -->
+
+        </article>
+      </div>
+
+      <!--=============== SKILLS ===============-->
+      <div class="skills__content grid" data-content id="skills">
+        <div class="skills__area">
+          <h3 class="skills__title">Frontend Developer</h3>
+
+          <div class="skills__box">
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="fa-regular fa-circle-check "></i>
+
+                <div>
+                  <h3 class="skills__name">HTML</h3>
+                  <span class="skills__level">Basic</span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="fa-regular fa-circle-check"></i>
+
+                <div>
+                  <h3 class="skills__name">CSS</h3>
+                  <span class="skills__level">Advanced</span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="fa-regular fa-circle-check"></i>
+
+                <div>
+                  <h3 class="skills__name">JavaScript</h3>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="fa-regular fa-circle-check"></i>
+
+                <div>
+                  <h3 class="skills__name">React</h3>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="fa-regular fa-circle-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Bootstrap</h3>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="fa-regular fa-circle-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Git</h3>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills__area">
+          <h3 class="skills__title">Backend Developer</h3>
+
+          <div class="skills__box">
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="fa-regular fa-circle-check"></i>
+
+                <div>
+                  <h3 class="skills__name">PHP</h3>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="fa-regular fa-circle-check"></i>
+
+                <div>
+                  <h3 class="skills__name">MySQL</h3>
+                  <span class="skills__level">Advance</span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="fa-regular fa-circle-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Firebase</h3>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills__group">
+              <div class="skills__data">
+                <i class="fa-regular fa-circle-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Python</h3>
+                  <span class="skills__level">Basic</span>
+                </div>
+              </div>
+
+              <div class="skills__data">
+                <i class="fa-regular fa-circle-check"></i>
+
+                <div>
+                  <h3 class="skills__name">Node Js</h3>
+                  <span class="skills__level">Intermediate</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-------	 SERVICE SECTION START	------->
+
+  <section class="service_section" id="Service">
+    <div class="service_bg">
+      <img src="images/Vector 3.png"  alt="">
+    </div>
+    <div class="container">
+      <div class="service_title_box">
+        <span class="subtitle">My Services</span>
+        <h2 class="section_title">What I can offer</h2>
+      </div>
+      <div class="service_cards">
+        <div class="service_item d1 hidden_left">
+          <i class="fa-solid fa-desktop services_icon"></i>
+          <h4 class="card_title">Front-end</h4>
+          <p class="card_details">Front-end is the development of the graphical UI of a website, through the use of
+            HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="service_item d2 hidden_left">
+          <i class="fa-solid fa-server services_icon"></i>
+          <h4 class="card_title">Back-end</h4>
+          <p class="card_details">Front-end is the development of the graphical UI of a website, through the use of
+            HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="service_item d3 hidden_left">
+          <i class="fa-solid fa-mobile-screen-button services_icon"></i>
+          <h4 class="card_title">Apps</h4>
+          <p class="card_details">Front-end is the development of the graphical UI of a website, through the use of
+            HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="service_item d4 hidden_left">
+          <i class="fa-solid fa-palette services_icon"></i>
+          <h4 class="card_title">UI/UX Design</h4>
+          <p class="card_details">Front-end is the development of the graphical UI of a website, through the use of
+            HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="service_item d5 hidden_left">
+          <i class="fa-brands fa-asymmetrik services_icon"></i>
+          <h4 class="card_title">Icon Design</h4>
+          <p class="card_details">Front-end is the development of the graphical UI of a website, through the use of
+            HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="service_item d6 hidden_left">
+          <i class="fa-solid fa-eye services_icon"></i>
+          <h4 class="card_title">Logo Design</h4>
+          <p class="card_details">Front-end is the development of the graphical UI of a website, through the use of
+            HTML, CSS, and JavaScript.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+    <!-------	 MARKETPLACE  SECTION START	------->
+<section id="marketplace" class="marketplace">
+  <div class="platforms">
+    <div class="platform_img">
+     <a href="https://www.freelancer.com.bd/u/developerarif10" target="_blank"> <img src="images/freelamcer logo.png" alt=""></a>
+    </div>
+    <div class="platform_img">
+      <a href="https://www.fiverr.com/developerarif10"> <img src="images/fiveerr-logo.png" alt=""></a>
+    </div>
+    <div class="platform_img">
+      <a href="https://www.upwork.com/freelancers/~01b4257449c06ce4d9"> <img src="images/upwork-logo.png" alt=""></a>
+    </div>
+    <div class="platform_img">
+      <a href="www.linkedin.com/in/arifurrahmanrafi"> <img src="images/linked  in logo.png" alt=""></a>
+    </div>
+  </div>
+</section>
+    <!-------	 MARKETPLACE  SECTION END	------->
+
+
+  <!-------	 TESTIMONIALS SECTION START	------->
+
+  <section class="testimonial_section" id="Testimonial">
+    <div class="container">
+      <div class="testimonial_title_box">
+        <span class="subtitle">Testimonials</span>
+        <h2 class="section_title">What my clients say</h2>
+      </div>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="testimonial_content">
+              <div class="testimonial_details">
+                <div class="quetation-img">
+                  <img src="images/quetos.png" width="25" height="25" alt="">
+                </div>
+                <p class="para">Great communication, quick results, fair price. Thanks for the great work. Would hire again!</p>
+                <span class="subtitle">David Camemen</span>
+              </div>
+              <div class="testimonial_img">
+                <img src="images/testimonial/davidcameme.jpg" alt="testimonial image 1">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial_content">
+              <div class="testimonial_details">
+                <div class="quetation-img">
+                  <img src="images/quetos.png" width="25" height="25" alt="">
+                </div>
+                <p class="para">Working with Arifur was great. He was accessible and extremely collaborative on this project. He completed all milestones quickly and ahead of schedule. I will definitely go back to Arifur for my next project.</p>
+                <span class="subtitle">Otilia</span>
+              </div>
+              <div class="testimonial_img">
+                <img src="images/testimonial/client-2.jpg" alt="testimonial image 1">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial_content">
+              <div class="testimonial_details">
+                <div class="quetation-img">
+                  <img src="images/quetos.png" width="25" height="25" alt="">
+                </div>
+                <p class="para">Working with Arifur was very easy. He took my requirements and delivered exactly what i wanted to a good qaulity level. Communication was great and the cost was very reasonable.</p>
+                <span class="subtitle">Steve Smith</span>
+              </div>
+              <div class="testimonial_img">
+                <img src="images/testimonial-3.webp" alt="testimonial image 1">
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+  </section>
+
+
+
+
+  <!-------	 CONTACT SECTION START	------->
+
+  <section class="contact_section" id="Contact">
+    <div class="container">
+
+      <div class="contact-row">
+        <div class="contact_content">
+          <div class="contact_image hidden_left">
+            <img src="images/contact 2.jpg" class="contact_img" alt="About image">
+          </div>
+          <div class="contact_form_box hidden_right">
+            <span class="subtitle">My Contacts</span>
+            <h2 class="section_title">Get in Touch</h2>
+            <form action="" method="post" class="contact-form" id="contact-form">
+              <div class="contact_form">
+                <div class="contact_inputs">
+  
+                  <input type="text" name="user_name" required id="contact-name" placeholder="Your Name">
+                  <input type="email" required name="user_email" id="contact-email" placeholder="Your Email">
+                </div>
+                <div class="contact_messageBox">
+                  <textarea name="user_project" id="contact-project" required placeholder="Your Message" spellcheck="false"></textarea>
+                </div>
+
+                <p class="contact__message" id="contact-message"></p>
+
+
+                <div class="contact_btn">
+                 <button type="submit" role="button" class="btn home__btn btnColor">
+                      Send Message &nbsp; <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                </div>
+  
+              
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+
+<!-- 
+
+      <span class="phone_number"><i class="fa-solid fa-phone"></i> &nbsp; 01685-366704</span>
+      <span class="email_number"><i class="fa-solid fa-envelope"></i> &nbsp; arifurrahmanrafi99@gmail.com</span> -->
+
+
+
+      <div class="contact-row hidden_top">
+        <div class="contact_address">
+         <div class="contact_details">
+          <div class="contact_location">
+            <div class="location_img">
+              <img src="images/map-icon.svg" alt="location img">
+            </div>
+            <div class="location_details">
+              <span class="line"></span>
+              <p>Laksmipur, Chiitagong</p>
+              <p>Laksmipur, Chiitagong, Bangladesh</p>
+            </div>
+          </div>
+         </div>
+         <div class="contact_details">
+          <div class="contact_location">
+            <div class="location_img">
+              <img src="images/phone-icon.svg" alt="Phone icon">
+            </div>
+            <div class="location_details">
+              <span class="line"></span>
+              <p>01685-366704</p>
+              <p>What'sapp: 01685-366704</p>
+            </div>
+          </div>
+         </div>
+         <div class="contact_details">
+          <div class="contact_location">
+            <div class="location_img">
+              <img src="images/mail-icon.svg" alt="email icon">
+            </div>
+            <div class="location_details" >
+              <span class="line"></span>
+              <p>arifurrahmanrafi99@gmail.com</p>
+              <p>arifurrahman6778@gmail.com</p>
+            </div>
+          </div>
+         </div>
+
+        </div>
+      </div>
+
+    </div>    
+
+  </section>
+
+
+  <!-- cols="58" rows="3" -->
+
+  
+
+  <!-------	 FOOTER SECTION START	------->
+
+  <section class="footer_section" id="footer">
+    
+<div class="footer_bottom">
+  <p>Copyright © 2022 <a href="https://ararifurrahman.com">ararifurrahman.com</a> All Rights Reserved</p>
+</div>
+</section>
+
+
+
+  <!-- SCROLL TO TOP  -->
+
+  <a id='backTop'><i class="fa-solid fa-angles-up"></i></a>
+
+
+  <!-- -----   JQUERY CDN LINK  ------->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <!-- -----   SWIPPER JS CDN LINK  ------->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+  <!-------   External JS File (Smooth Scroll) -------->
+  
+  <script
+  src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+  
+  <!-- --------  EMAIL JS LINK  -------  -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+  <!-- --------  MAIN JS LINK  -------  -->
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/modal_popup.js"></script>
+
+</body>
+
+</html>
