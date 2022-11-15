@@ -1,0 +1,472 @@
+/* Media queries style start    
+
+				576px for portrait phones.
+				768px for tablets.
+				992px for laptops.
+				1200px for large devices. 
+
+*/
+/*	576px for portrait phones. */
+
+@media screen and (max-width: 576px) {
+   
+  body{
+      overflow-x: hidden;
+  }
+ 
+ #backTop {
+     display: none;
+ }
+  .home .container {
+    justify-content: center;
+  }
+
+  .home_content {
+    text-align: center;
+  }
+
+  .container .home_img  {
+  margin-top: 2.5rem;
+  max-width: 80%;
+  }
+
+  .home_content .primary_heading {
+    text-align: left;
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+
+  .home_content .para {
+    font-size: 1.6rem;
+  }
+
+  .about_content_box .about_image {
+    width: auto;
+  }
+
+  .about_content_box .about_image::before {
+    margin-top: -9.5rem;
+    margin-left: -9rem;
+  }
+
+  .section_title {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 6rem;
+    line-height: 4rem;
+  }
+
+  .about_titleBox {
+    text-align: center;
+  }
+
+  .home_content {
+    padding: 0 2rem;
+  }
+
+  .btn {
+    padding: 2rem 4rem;
+  }
+  .home .container {
+    
+    gap: 1rem;
+  }
+
+  .about_section .about_content_box {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .about_section {
+    height: 130rem;
+   
+  }
+
+  .about_section .container {
+    margin: 0 1rem;
+  }
+
+  .about_info {
+    gap: 2rem;
+    flex-direction: column;
+  }
+
+  .about_description .about_btns {
+    flex-direction: column;
+  }
+
+
+  /* SERVICES SECTION CSS 	 */
+
+  .service_section .service_cards {
+    justify-content: center;
+  }
+
+  .service_title_box {
+    padding: 0 2rem;
+    text-align: center;
+  }
+
+  .modal-header .title {
+    font-size: 1.7rem;
+  }
+
+  .modal-body {
+    font-size: 1.1rem;
+  }
+
+  .modal-body .project_content h4 {
+    font-size: 1.5rem;
+  }
+
+  .swiper-slide .testimonial_content .testimonial_details .quetation-img {
+    margin-bottom: 2rem;
+  }
+
+  .marketplace .platforms {
+    gap: 0rem;
+  }
+
+  .marketplace .platforms .platform_img a img {
+    width: 20rem;
+  }
+
+  /* CONTACT SECTION CSS 	 */
+
+  .contact_section {
+    margin: 3rem 0rem;
+    height: 155rem;
+  }
+
+  .contact_img {
+   width: 100%;
+  }
+
+  .contact_content .contact_image::before {
+    width: 32rem;
+    height: 32rem;
+    margin-top: -5.5rem;
+    margin-left: 2rem;
+  }
+
+  .contact_form_box .form {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact_form_box .contact_form .contact_inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .contact_form_box .contact_form .contact_inputs input {
+    width: 100%;
+  }
+
+  .contact_form {
+    width: 100%;
+  }
+
+  .contact_messageBox {
+    margin-top: 3rem;
+  }
+
+  .contact_messageBox textarea {
+    width: 100%;
+  }
+
+  .contact_form_box {
+    text-align: center;
+    width: 100%;
+  }
+
+  .contact_form .contact_btn {
+    text-align: center;
+  }
+
+  .contact-row .contact_address{
+    gap: 5rem ;
+    margin-top: 7rem;
+  }
+
+  input, textarea {
+    width: 30rem;
+  }
+
+  .contact_section .contact_content {
+    flex-direction: column;
+  }
+
+  .contact_btn .btn {
+    padding: 2rem 3rem;
+  }
+
+  .contact-row .contact_address {
+    flex-direction: column;
+  }
+
+  .footer_section .footer_bottom p {
+    font-size: 1.4rem;
+  }
+
+  #backTop {
+    right: 1.5rem;
+    bottom: 1.8rem;
+  }
+
+}
+
+@media screen and (min-width: 576px) {
+  .about_content_box {
+    flex-wrap: wrap;
+  }
+
+  .about_img {
+    width: 30rem;
+  }
+
+  .about_content_box .about_image::before {
+    margin-top: -8.2rem;
+    margin-left: -15rem;
+  }
+
+  .about_section .about_content_box {
+    gap: 6rem;
+  }
+
+  .testimonial_section .container {
+    padding: 0 2.5rem;
+  }
+
+  .contact_section .contact_content {
+    justify-content: center;
+  }
+
+  .contact_form_box .contact_form .contact_inputs {
+    gap: 2rem;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 536px) and (max-width: 1086px) {
+  .about_section {
+    height: 100rem;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1086px) {
+  .about_section {
+    height: 110rem;
+  }
+}
+
+
+
+/* 	Ipads or tablet devices		*/
+
+@media screen and (max-width: 768px) {
+    
+   body{
+
+       overflow-x: hidden;
+
+   }
+    
+  .container {
+    padding: 0 2rem;
+  }
+  .header {
+    padding: 0 3.5rem;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-100%);
+    transition: all 0.3s linear;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: none;
+  }
+
+  .navbar .navbar_navlist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-navbar-btn {
+    display: block;
+    z-index: 9999999;
+  }
+
+  .active .navbar {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    transform: translateX(0);
+    z-index: 99999;
+  }
+
+  .active .mobile-navbar-btn .mobile_nav_icon[name="close"] {
+    display: block;
+    color: #ffffff;
+  }
+
+  .active .mobile-navbar-btn .mobile_nav_icon[name="bars"] {
+    display: none;
+    color: #ffffff;
+  }
+
+  .home .container {
+    flex-wrap: wrap-reverse;
+    gap: 0;
+    justify-content: center;
+    margin-top: 5rem;
+  }
+
+  .home .container .home_img {
+    max-width: 75%;
+  }
+
+
+  /* TESTIMONIAL SECTION CSS 	 */
+
+  .swiper {
+    width: 100%;
+    height: 73rem;
+  }
+
+  .swiper-slide .testimonial_content {
+    flex-wrap: wrap;
+    padding: 0 3rem;
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 7rem !important;
+  }
+
+  .swiper-slide img {
+    max-width: 30rem;
+    text-align: center;
+  }
+
+  .swiper-slide .testimonial_content .testimonial_details .para {
+    margin: 0;
+  }
+
+  .swiper-slide .testimonial_content .testimonial_details {
+    width: 100%;
+  }
+
+  .swiper-slide .testimonial_content .testimonial_details .subtitle {
+    padding: 4rem 0;
+  }
+
+  .testimonial_title_box {
+    padding: 0 2rem;
+    text-align: center;
+  }
+
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 4rem !important;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  #about {
+    margin: 0 10rem;
+  }
+
+  #skills_container {
+    padding: 0 3rem;
+  }
+
+  .service_section .container {
+    padding: 0 2rem;
+  }
+
+  .service_section .service_cards .service_item {
+    width: 35rem;
+  }
+
+  .swiper {
+    width: 70rem;
+    height: auto;
+  }
+
+  .swiper-slide .testimonial_content .testimonial_details .para {
+    margin: 0 3rem 2rem 0rem;
+  }
+
+  .swiper-slide .testimonial_content {
+    margin: 0 5rem;
+  }
+}
+
+/* Tab Section responsive  */
+@media (min-width: 535px) and (max-width: 577px) {
+  #skills_container {
+    margin-top: 25rem;
+  }
+}
+
+
+
+/*		 992px for laptops. 		*/
+
+@media screen and (max-width: 992px) {
+  .contact_content {
+    flex-wrap: wrap;
+  }
+
+  .home .container {
+    gap: 2rem;
+  }
+
+  .home_content .primary_heading {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  .about_description {
+    max-width: 50rem;
+  }
+
+  .about_img {
+    width: 35rem;
+  }
+
+  .swiper {
+    width: 94rem;
+  }
+}
+
+/* 		1200px for large devices. 	 */
+
+@media screen and (min-width: 1200px) {
+  .swiper {
+    width: 102.8rem;
+  }
+}
